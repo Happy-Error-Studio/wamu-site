@@ -102,15 +102,6 @@ body{
   display: block;
 }
 
-.brand{
-  font-size: clamp(48px, 10vw, 72px);
-  line-height: 1.05;
-  font-weight: 800;
-  letter-spacing: -0.02em;
-
-  color: var(--wamu-green);
-}
-
 .tagline{
   margin:6px 0 0;
   font-weight:800;
