@@ -340,3 +340,18 @@ textarea{ resize: vertical; }
     width: 100%;
   }
 }
+
+/* PCで参加方法の写真を少し大きくして見栄えUP */
+@media (min-width: 901px){
+  .profile-grid{
+    grid-template-columns: 240px 1fr;
+  }
+  .media{
+    width: 240px;
+  }
+  .avatar{
+    width: 240px;
+    height: 180px;
+    border-radius: 18px;
+  }
+}
