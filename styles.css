@@ -90,6 +90,7 @@ body{
   margin:0 auto;
   text-align:center;
 }
+.tagline{ margin-top: 6px; }
 
 .brand{
   font-size: clamp(48px, 10vw, 72px);
