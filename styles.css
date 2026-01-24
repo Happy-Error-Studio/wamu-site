@@ -97,7 +97,7 @@ body{
   margin-bottom: 4px;  /* ロゴとタグラインの間を詰める */
 }
 .hero-logo img{
-  width: clamp(190px, 40vw, 360px); /* 最適サイズ */
+  width: clamp(240px, 72vw, 360px); /* 最適サイズ */
   height: auto;
   display: block;
 }
@@ -372,9 +372,9 @@ textarea{ resize: vertical; }
 }
 
 /* hero logo: smartphone boost */
-@media (max-width: 600px){
+@media (max-width: 768px){
   .hero-logo img{
-    width: clamp(220px, 60vw, 280px);
+    width: clamp(220px, 80vw, 360px);
   }
 }
 
