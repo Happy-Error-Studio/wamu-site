@@ -355,3 +355,17 @@ textarea{ resize: vertical; }
     border-radius: 18px;
   }
 }
+
+/* hero: wamu wordmark */
+.hero-logo{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-logo img{
+  width: clamp(180px, 42vw, 340px);
+  height: auto;
+  display: block;
+}
+
