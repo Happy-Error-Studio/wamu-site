@@ -371,3 +371,10 @@ textarea{ resize: vertical; }
   display: block;
 }
 
+/* hero logo: smartphone boost */
+@media (max-width: 600px){
+  .hero-logo img{
+    width: clamp(220px, 60vw, 280px);
+  }
+}
+
